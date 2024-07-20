@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'S creen1/homescreen.dart';
+import 'homescreen.dart';
+import 'page2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
       initialRoute:HomeScreen.routeName,
       routes: {
         HomeScreen.routeName:(context) => const HomeScreen(),
-        HomeScreen.routeName:(context) => const HomeScreen(),
+
+
       },
     );
   }

@@ -1,12 +1,12 @@
-import 'package:c11_exam/S%20creen1/bestseller.dart';
+import '../bestseller.dart';
 import 'package:flutter/material.dart';
 import 'RecommendedList.dart';
 import 'CategoryList.dart';
 import 'SectionTitle.dart';
-import 'bestseller.dart';
+import '../bestseller.dart';
 
 class HomeScreen extends StatefulWidget {
-  static const String routeName = 'HomeScreen';
+  static const String routeName = 'ScreenTwo';
 
   const HomeScreen({super.key});
 
