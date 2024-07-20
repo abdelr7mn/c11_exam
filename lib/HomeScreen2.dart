@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-class page2 extends StatelessWidget {
-  static const String routeName = 'Screen2';
-
+class HomeScreen2 extends StatelessWidget {
+  static const String routeName = 'HomeScreen2';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,10 +38,10 @@ class page2 extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  _buildMoodIcon('Love', 'assets/images/love.png'),
-                  _buildMoodIcon('Cool', 'assets/images/cool.png'),
-                  _buildMoodIcon('Happy', 'assets/images/happy.png'),
-                  _buildMoodIcon('Sad', 'assets/images/sad.png'),
+                  _buildMoodIcon('Love', 'assets/images/Group.png'),
+                  _buildMoodIcon('Cool', 'assets/images/Group.png'),
+                  _buildMoodIcon('Happy', 'assets/images/Group.png'),
+                  _buildMoodIcon('Sad', 'assets/images/Group.png'),
                 ],
               ),
               SizedBox(height: 16),
@@ -131,10 +130,10 @@ class page2 extends StatelessWidget {
         crossAxisSpacing: 8,
       ),
       children: [
-        _buildExerciseCard('Relaxation', 'assets/images/relaxation.png'),
-        _buildExerciseCard('Meditation', 'assets/images/meditation.png'),
-        _buildExerciseCard('Breathing', 'assets/images/breathing.png'),
-        _buildExerciseCard('Yoga', 'assets/images/yoga.png'),
+        _buildExerciseCard('Relaxation', 'assets/images/Group.png'),
+        _buildExerciseCard('Meditation', 'assets/images/Group.png'),
+        _buildExerciseCard('Breathing', 'assets/images/Group.png'),
+        _buildExerciseCard('Yoga', 'assets/images/Group.png'),
       ],
     );
   }
@@ -152,3 +151,4 @@ class page2 extends StatelessWidget {
     );
   }
 }
+
