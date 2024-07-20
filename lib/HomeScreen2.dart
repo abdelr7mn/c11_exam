@@ -39,9 +39,9 @@ class HomeScreen2 extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   _buildMoodIcon('Love', 'assets/images/love.png'),
-                  _buildMoodIcon('Cool', 'assets/images/.png'),
-                  _buildMoodIcon('Happy', 'assets/images/Group.png'),
-                  _buildMoodIcon('Sad', 'assets/images/Group.png'),
+                  _buildMoodIcon('Cool', 'assets/images/smile.png'),
+                  _buildMoodIcon('Happy', 'assets/images/glass.png'),
+                  _buildMoodIcon('Sad', 'assets/images/sad.png'),
                 ],
               ),
               SizedBox(height: 16),
